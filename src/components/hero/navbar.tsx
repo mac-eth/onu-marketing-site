@@ -32,7 +32,7 @@ const Navbar: React.FC = () => {
                     key={link.toLowerCase()}
                   >
                     <div
-                      className={`inline-block px-7 py-2 text-gray-800 font-poppins text-[16px] hover:underline ${
+                      className={`inline-block px-7 py-2 text-gray-800 font-poppins font-medium text-[16px] hover:underline ${
                         router.pathname === `/${link.toLowerCase()}`
                           ? "font-bold"
                           : ""
@@ -63,7 +63,7 @@ const Navbar: React.FC = () => {
           {["Features", "Pricing", "Docs"].map((link) => (
             <Link href={`/${link.toLowerCase()}`} key={link.toLowerCase()}>
               <div
-                className={`inline-block px-7 py-2 text-gray-800 font-poppins text-[16px] hover:underline ${
+                className={`inline-block px-7 py-2 text-gray-800 font-medium font-poppins text-[16px] hover:underline ${
                   router.pathname === `/${link.toLowerCase()}`
                     ? "font-bold"
                     : ""
@@ -74,7 +74,7 @@ const Navbar: React.FC = () => {
             </Link>
           ))}
           <div className="inline-block px-7 py-2">
-            <button className="inline-block px-4 py-2 text-gray-800 rounded-2xl outline-none border-2 border-gray-800 hover:bg-gray-800 hover:text-white font-poppins hover:underline text-[16px]">
+            <button className="inline-block px-4 py-2 text-gray-800 font-medium rounded-2xl outline-none border-2 border-gray-800 hover:bg-gray-800 hover:text-white font-poppins hover:underline text-[16px]">
               <Link href="/dashboard" key="dashboard">
                 Dashboard
               </Link>

@@ -1,17 +1,38 @@
 import React from "react";
+import Typewriter from "typewriter-effect";
+import TitleButtons from "./titleButtons";
+import Stats from "./stats";
 
 const titleArray = [
   {
     title: "Youtube",
-    color: "red-500",
+    color: "text-[#fe0021]",
+    delay: 3300,
   },
   {
     title: "Twitch",
-    color: "purple-500",
+    color: "text-[#5631bf]",
+    delay: 3100,
+  },
+  {
+    title: "Spotify",
+    color: "text-[#0cd569]",
+    delay: 3250,
+  },
+  {
+    title: "Influencer",
+    color: "text-[#f64229]",
+    delay: 4100,
   },
   {
     title: "E-Commerce",
-    color: "blue-500",
+    color: "text-[#96bd5a]",
+    delay: 4100,
+  },
+  {
+    title: "Blockchain",
+    color: "text-sky-500",
+    delay: 4100,
   },
 ];
 
@@ -21,34 +42,40 @@ const Title: React.FC = () => {
   React.useEffect(() => {
     const interval = setInterval(() => {
       setCurrentTitleIndex((i) => (i + 1) % titleArray.length);
-    }, 2000);
+    }, titleArray[currentTitleIndex].delay);
     return () => clearInterval(interval);
-  }, []);
+  }, [currentTitleIndex]);
 
   const currentTitle = titleArray[currentTitleIndex];
 
   return (
-    <div className="flex justify-start items-center mx-24 pt-40 ">
-      <div>
-        <h1 className="text-7xl font-bold font-poppins text-black">
-          Take Control of Your
-        </h1>
-        <div className="flex">
-          <h1
-            className={`text-7xl font-bold font-poppins text-${currentTitle.color}`}
-          >
-            {currentTitle.title} <a className="text-7xl font-bold font-poppins text-black"> Business.</a>
+    <div className="grid gap-1 grid-cols-1 md:grid-cols-2 md:gap-8">
+      <div className="flex col-span-1 justify-center md:justify-start mx-12 md:mx-24 md:pt-40 ">
+        <div>
+          <h1 className="text-center md:text-left text-5xl md:text-7xl font-bold font-poppins text-black">
+            Take Control of Your
           </h1>
-        </div>
+          <h1
+            className={`text-center md:text-left md:inline-flex text-5xl md:text-7xl font-bold font-poppins ${currentTitle.color} flex-wrap md:inline-flex`}
+          >
+            <Typewriter
+              options={{
+                strings: currentTitle.title,
+                autoStart: true,
+                loop: true,
+              }}
+            />
+            <a className="text-center md:text-left text-5xl md:text-7xl font-bold font-poppins text-black">
+              Business.
+            </a>
+          </h1>
 
-        <p className="text-gray-600">Description</p>
-        <div className="flex mt-4">
-          <button className="px-4 py-2 bg-blue-500 text-white rounded-lg shadow-md hover:bg-blue-600">
-            Button 1
-          </button>
-          <button className="px-4 py-2 bg-blue-500 text-white rounded-lg shadow-md hover:bg-blue-600 ml-4">
-            Button 2
-          </button>
+          <p className="text-center md:text-left mt-8 text-gray-800 font-poppins text-lg md:text-2xl ">
+            Oni gives you the tools you need to grow your platforms. With an
+            extremely customizable interface, Oni is built specifically for you.
+          </p>
+          <TitleButtons />
+          <Stats />
         </div>
       </div>
     </div>
