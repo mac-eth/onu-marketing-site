@@ -10,3 +10,17 @@
   }
 }
 
+@keyframes animation-typewriter {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+.animation-typewriter {
+  overflow: hidden;
+  white-space: nowrap;
+  animation: animation-typewriter 1s steps(40, end) infinite;
+}
