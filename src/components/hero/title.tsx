@@ -50,7 +50,7 @@ const Title: React.FC = () => {
 
   return (
     <div className="grid gap-1 grid-cols-1 md:grid-cols-2 md:gap-8">
-      <div className="flex col-span-1 justify-center md:justify-start mx-12 md:mx-24 md:pt-40 ">
+      <div className="flex col-span-1 justify-center md:justify-start mx-12 md:mx-24 pt-8 md:pt-40 ">
         <div>
           <h1 className="text-center md:text-left text-5xl md:text-7xl font-bold font-poppins text-black">
             Take Control of Your
