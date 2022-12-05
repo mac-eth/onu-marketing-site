@@ -25,14 +25,9 @@ const titleArray = [
     delay: 4100,
   },
   {
-    title: "E-Commerce",
-    color: "text-[#96bd5a]",
-    delay: 4100,
-  },
-  {
     title: "Blockchain",
     color: "text-sky-500",
-    delay: 4100,
+    delay: 4250,
   },
 ];
 
