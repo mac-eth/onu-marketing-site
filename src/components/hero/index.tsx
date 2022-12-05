@@ -1,12 +1,12 @@
 import React from 'react';
 import Navbar from './navbar';
-import Title from './title';
+import Content from './content';
 
 const Hero: React.FC = () => {
     return (
-        <div className="full-screen bg-gradient-to-br from-bgpurple to-bgblue">
+        <div className="min-h-screen bg-gradient-to-br from-bgpurple to-bgblue">
             <Navbar />
-            <Title />
+            <Content />
         </div>
     )
 }

@@ -10,6 +10,17 @@
   }
 }
 
+.box {
+  margin-left: auto;
+  width: 80%;
+  position: relative;
+
+  @media (min-width: 768px) {
+    width: 100%;
+  }
+}
+
+
 @keyframes animation-typewriter {
   from {
     width: 0;
