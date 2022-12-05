@@ -48,11 +48,11 @@ const Content: React.FC = () => {
     <div className="grid gap-1 grid-cols-1 lg:grid-cols-2 lg:gap-8">
       <div className="flex col-span-1 justify-center lg:justify-start mx-12 lg:mx-24 pt-2 xl:pt-10 2xl:pt-40 ">
         <div>
-          <h1 className="text-center lg:text-left text-5xl lg:text-7xl font-bold font-poppins text-black">
+          <h1 className="text-center lg:text-left text-5xl lg:text-7xl font-bold text-black">
             Take Control of Your
           </h1>
           <h1
-            className={`text-center lg:text-left lg:inline-flex text-5xl lg:text-7xl font-bold break-after-column font-poppins ${currentTitle.color} flex-wrap lg:inline-flex`}
+            className={`text-center lg:text-left text-5xl lg:text-7xl font-bold ${currentTitle.color} flex-wrap`}
           >
             <Typewriter
               options={{
@@ -61,12 +61,12 @@ const Content: React.FC = () => {
                 loop: true,
               }}
             />
-            <a className="text-center lg:text-left text-5xl lg:text-7xl font-bold font-poppins text-black">
+            <a className="text-center lg:text-left text-5xl lg:text-7xl font-bold text-black">
               Business.
             </a>
           </h1>
 
-          <p className="text-center lg:text-left mt-8 text-gray-800 font-poppins text-lg lg:text-2xl ">
+          <p className="text-center lg:text-left mt-8 text-gray-800 text-lg lg:text-2xl ">
             Oni gives you the tools you need to grow your platforms. With an
             extremely customizable interface, Oni is built specifically for you.
           </p>

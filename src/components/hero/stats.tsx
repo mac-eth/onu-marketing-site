@@ -20,7 +20,7 @@ const statsArray = [
 
 const Stats: React.FC = () => {
     return (
-        <div className="mt-10 flex flex-row col-span-2 lg:col-span-2 justify-between lg:mr-10 pt-2 lg:pt-24 xl:pt-32">
+        <div className="flex flex-row col-span-2 lg:col-span-2 justify-between lg:mr-10 pt-2 lg:pt-24 xl:pt-32">
             {statsArray.map((stat) => (
                 <div className="flex flex-col items-center gap-2" key={stat.key}>
                     <h1 className="text-3xl xl:text-5xl font-bold font-poppins italic text-black">

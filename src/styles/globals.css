@@ -2,36 +2,3 @@
 @tailwind components;
 @tailwind utilities;
 
-.full-screen {
-  height: 100vh;
-
-  @media (max-width: 768px) {
-    height: auto;
-  }
-}
-
-.box {
-  margin-left: auto;
-  width: 80%;
-  position: relative;
-
-  @media (min-width: 768px) {
-    width: 100%;
-  }
-}
-
-
-@keyframes animation-typewriter {
-  from {
-    width: 0;
-  }
-  to {
-    width: 100%;
-  }
-}
-
-.animation-typewriter {
-  overflow: hidden;
-  white-space: nowrap;
-  animation: animation-typewriter 1s steps(40, end) infinite;
-}

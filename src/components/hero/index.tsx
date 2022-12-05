@@ -4,7 +4,7 @@ import Content from './content';
 
 const Hero: React.FC = () => {
     return (
-        <div className="min-h-screen bg-gradient-to-br from-bgpurple to-bgblue">
+        <div className="h-screen snap-start">
             <Navbar />
             <Content />
         </div>
