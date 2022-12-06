@@ -8,10 +8,10 @@ interface Props {
 
 const SectionDescriptions: React.FC<Props> = ({ title, heading, description }) => {
   return (
-    <div className="text-center mx-auto max-w-7xl px-6 lg:px-8 ">
-      <h1 className="text-lg font-semibold leading-8">{title}</h1>
+    <div className="mx-auto max-w-md px-6 text-center sm:max-w-3xl lg:max-w-7xl lg:px-8">
+      <h1 className="text-lg font-semibold text-indigo-600">{title}</h1>
       <h2 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">{heading}</h2>
-      <p className="mx-auto mt-6 max-w-2xl text-lg leading-8 text-gray-600">{description}</p>
+      <p className="mx-auto mt-5 max-w-prose text-xl text-gray-500">{description}</p>
     </div>
   );
 }

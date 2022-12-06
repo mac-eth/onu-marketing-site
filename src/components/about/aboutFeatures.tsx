@@ -1,51 +1,74 @@
-import { BoltIcon, DevicePhoneMobileIcon, GlobeAltIcon, ScaleIcon } from '@heroicons/react/24/outline'
+import {
+  ArrowPathIcon,
+  CloudArrowUpIcon,
+  CogIcon,
+  LockClosedIcon,
+  ServerIcon,
+  ShieldCheckIcon,
+} from "@heroicons/react/24/outline";
 
 const features = [
-    {
-      name: 'Competitive exchange rates',
-      description:
-        'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
-      icon: GlobeAltIcon,
-    },
-    {
-      name: 'No hidden fees',
-      description:
-        'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
-      icon: ScaleIcon,
-    },
-    {
-      name: 'Transfers are instant',
-      description:
-        'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
-      icon: BoltIcon,
-    },
-    {
-      name: 'Mobile notifications',
-      description:
-        'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
-      icon: DevicePhoneMobileIcon,
-    },
-  ]
+  {
+    name: "Push to Deploy",
+    description:
+      "Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.",
+    icon: CloudArrowUpIcon,
+  },
+  {
+    name: "SSL Certificates",
+    description:
+      "Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.",
+    icon: LockClosedIcon,
+  },
+  {
+    name: "Simple Queues",
+    description:
+      "Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.",
+    icon: ArrowPathIcon,
+  },
+  {
+    name: "Advanced Security",
+    description:
+      "Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.",
+    icon: ShieldCheckIcon,
+  },
+  {
+    name: "Powerful API",
+    description:
+      "Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.",
+    icon: CogIcon,
+  },
+  {
+    name: "Database Backups",
+    description:
+      "Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.",
+    icon: ServerIcon,
+  },
+];
 
-const aboutFeatures: React.FC = () => {
+const AboutFeatures: React.FC = () => {
   return (
-    <div className="mt-20 mx-auto max-w-7xl px-6">
-      <div className="grid grid-cols-1 gap-y-16 md:grid-cols-2 md:gap-x-12 md:gap-y-16">
+    <div className="mt-20">
+      <div className="grid grid-cols-1 gap-12 sm:grid-cols-2 lg:grid-cols-3">
         {features.map((feature) => (
-          <div
-            key={feature.name}
-            className="relative flex flex-col gap-6 sm:flex-row md:flex-col lg:flex-row"
-          >
-            <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-indigo-500 text-white sm:shrink-0">
-              <feature.icon className="h-8 w-8" aria-hidden="true" />
-            </div>
-            <div className="sm:min-w-0 sm:flex-1">
-              <p className="text-lg font-semibold leading-8 text-gray-900">
-                {feature.name}
-              </p>
-              <p className="mt-2 text-base leading-7 text-gray-600">
-                {feature.description}
-              </p>
+          <div key={feature.name} className="pt-6">
+            <div className="flow-root rounded-lg bg-gray-50 px-6 pb-8">
+              <div className="-mt-6">
+                <div>
+                  <span className="inline-flex items-center justify-center rounded-xl bg-indigo-500 p-3 shadow-lg">
+                    <feature.icon
+                      className="h-8 w-8 text-white"
+                      aria-hidden="true"
+                    />
+                  </span>
+                </div>
+                <h3 className="mt-8 text-lg font-semibold leading-8 tracking-tight text-gray-900">
+                  {feature.name}
+                </h3>
+                <p className="mt-5 text-base leading-7 text-gray-600">
+                  {feature.description}
+                </p>
+              </div>
             </div>
           </div>
         ))}
@@ -54,4 +77,4 @@ const aboutFeatures: React.FC = () => {
   );
 };
 
-export default aboutFeatures;
+export default AboutFeatures;
