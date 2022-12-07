@@ -1,11 +1,11 @@
 import React from "react";
 import Image from "next/image";
-import HeroImageSVG from "../../assets/HeroImage.svg";
+import Hero_Image from "../../assets/HeroImage.png";
 
 const HeroImage: React.FC = () => {
     return (
-        <div className="relative hidden lg:flex place-top-left w-full">
-            <Image src={HeroImageSVG} alt="Hero Image" />
+        <div className="relative hidden lg:flex object-scale-down ">
+            <Image src={Hero_Image} alt="Hero Image" />
         </div>
     )
 };

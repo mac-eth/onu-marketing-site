@@ -4,7 +4,7 @@ import Content from "./content";
 
 const Hero: React.FC = () => {
   return (
-    <div className="min-h-screen">
+    <div className="h-screen faint-grid">
       <Navbar />
       <Content />
     </div>

@@ -1,5 +1,6 @@
 import React from "react";
 import Typewriter from "typewriter-effect";
+import Image from "next/image";
 import TitleButtons from "./titleButtons";
 import Stats from "./stats";
 import HeroImage from "./HeroImage";
@@ -72,13 +73,14 @@ const Content: React.FC = () => {
           </p>
           <TitleButtons />
           <div className="pt-10 lg:pt-20">
-          <Stats />
+            <Stats />
           </div>
         </div>
       </div>
+        <HeroImage />
+      
     </div>
   );
 };
-
 
 export default Content;

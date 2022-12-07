@@ -2,3 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+.faint-grid {
+  background-image: radial-gradient(
+      circle,
+      rgba(0, 0, 0, 0.07) 1px,
+      transparent 1px
+    ),
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.07) 1px, transparent 1px),
+    linear-gradient(to right, rgba(0, 0, 0, 0.07) 1px, transparent 1px);
+  background-size: 40px 40px;
+  border-radius: 30%;
+  z-index: -1;
+}
+
