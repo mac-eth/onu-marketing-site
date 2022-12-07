@@ -7,6 +7,9 @@ module.exports = {
     fontFamily: {
       default: ['Outfit', 'sans-serif'],
     },
+    colors: {
+      black: '#1f3341',       
+    },
     extend: {
       colors: {
         white: '#f5f5f4',

@@ -4,7 +4,7 @@ import Content from "./content";
 
 const Hero: React.FC = () => {
   return (
-    <div className="h-screen faint-grid">
+    <div className="h-screen faint-grid lg:snap-start lg:snap-proximity ">
       <Navbar />
       <Content />
     </div>
