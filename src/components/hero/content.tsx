@@ -49,7 +49,7 @@ const Content: React.FC = () => {
     <div className="grid gap-1 grid-cols-1 lg:grid-cols-2 lg:gap-8">
       <div className="flex col-span-1 justify-center lg:justify-start mx-12 lg:mx-24 pt-2 xl:pt-10 2xl:pt-40">
         <div>
-          <h1 className="text-center lg:text-left text-3xl lg:text-7xl font-bold text-black">
+          <h1 className="text-center lg:text-left text-3xl lg:text-7xl font-bold text-gray-900">
             Take Control of Your
           </h1>
           <h1
@@ -62,7 +62,7 @@ const Content: React.FC = () => {
                 loop: true,
               }}
             />
-            <a className="text-center lg:text-left text-3xl lg:text-7xl font-bold text-black">
+            <a className="text-center lg:text-left text-3xl lg:text-7xl font-bold text-gray-900">
               Business.
             </a>
           </h1>

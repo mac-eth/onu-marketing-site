@@ -26,7 +26,7 @@ const Stats: React.FC = () => {
                     <h1 className="text-3xl xl:text-5xl font-bold font-poppins italic text-secondary">
                         {stat.value}
                     </h1>
-                    <h1 className="text-lg xl:text-2xl font-medium font-poppins text-black">
+                    <h1 className="text-lg xl:text-2xl font-medium font-poppins text-gray-900">
                         {stat.title}
                     </h1>
                 </div>

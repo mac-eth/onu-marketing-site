@@ -52,10 +52,10 @@ const AboutFeatures: React.FC = () => {
       <div className="grid grid-cols-1 gap-12 sm:grid-cols-2 lg:grid-cols-3">
         {features.map((feature) => (
           <div key={feature.name} className="pt-6">
-            <div className="flow-root rounded-lg bg-gray-50 px-6 pb-8 border border-black shadow-md shadow-black transition duration-150 hover:scale-110">
+            <div className="flow-root rounded-lg bg-gray-50 px-6 pb-8 border border-gray-900 shadow-md shadow-gray-900 transition duration-150 hover:scale-110">
               <div className="-mt-6">
                 <div>
-                  <span className="inline-flex border border-black items-center justify-center rounded-xl bg-secondary p-3">
+                  <span className="inline-flex border border-gray-900 items-center justify-center rounded-xl bg-secondary p-3">
                     <feature.icon
                       className="h-8 w-8 text-white"
                       aria-hidden="true"
