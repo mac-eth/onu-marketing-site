@@ -3,7 +3,7 @@ import Typewriter from "typewriter-effect";
 import Image from "next/image";
 import TitleButtons from "./titleButtons";
 import Stats from "./stats";
-import HeroImage from "./HeroImage";
+import OnuHeroImage from "../../assets/OnuHeroImage.png";
 
 const titleArray = [
   {
@@ -77,8 +77,12 @@ const Content: React.FC = () => {
           </div>
         </div>
       </div>
-        <HeroImage />
-      
+      <Image
+        src={OnuHeroImage}
+        alt="HeroImage"
+        className="relative hidden lg:flex"
+        
+      />
     </div>
   );
 };

@@ -74,7 +74,7 @@ const Navbar: React.FC = () => {
             </Link>
           ))}
           <div className="inline-block px-7 py-2">
-            <button className="inline-block px-4 py-2 text-black bg-white font-medium rounded-xl shadow-md shadow-secondary outline-none border-2 border-secondary hover:bg-secondary hover:text-white hover:border-black hover: font-poppins">
+            <button className="inline-block px-4 py-2 text-black bg-gray-100 font-medium rounded-xl shadow-md shadow-secondary outline-none border-2 border-secondary hover:bg-secondary hover:text-white hover:border-black hover: font-poppins">
               <Link href="/dashboard" key="dashboard">
                 Dashboard
               </Link>

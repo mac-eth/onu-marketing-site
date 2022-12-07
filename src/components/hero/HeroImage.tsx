@@ -5,8 +5,8 @@ import LaptopSocials from "../../assets/LaptopSocials.png";
 
 const HeroImage: React.FC = () => {
     return (
-        <div className="relative hidden lg:flex object-scale-down ">
-            <Image src={LaptopSocials} alt="HeroImage" />
+        <div className="relative hidden lg:flex ">
+            <Image src={LaptopSocials} alt="HeroImage" className="relative hidden lg:flex" />
         </div>
     )
 };
