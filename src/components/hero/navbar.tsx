@@ -48,12 +48,12 @@ const Navbar: React.FC = () => {
         )}
       </div>
       {/* Desktop version */}
-      <div className="hidden lg:flex lg:items-center lg:justify-between mx-24 py-6">
+      <div className="hidden lg:flex lg:items-center lg:justify-between mx-24 py-6 text-lg font-poppins">
         <Image src={onuLogo} alt="Oni Logo" className="w-[10rem]" />
         <div>
           <Link href="/" key="home">
             <div
-              className={`inline-block px-7 py-2 text-gray-800 font-poppins hover:underline ${
+              className={`inline-block px-7 py-2 text-gray-800 hover:underline ${
                 router.pathname === "/" ? "font-bold" : ""
               }`}
             >
@@ -63,7 +63,7 @@ const Navbar: React.FC = () => {
           {["Features", "Pricing", "Docs"].map((link) => (
             <Link href={`/${link.toLowerCase()}`} key={link.toLowerCase()}>
               <div
-                className={`inline-block px-7 py-2 text-gray-800 font-medium font-poppins hover:underline ${
+                className={`inline-block px-7 py-2 text-gray-800 hover:underline hover:font-semibold ${
                   router.pathname === `/${link.toLowerCase()}`
                     ? "font-bold"
                     : ""
@@ -74,7 +74,7 @@ const Navbar: React.FC = () => {
             </Link>
           ))}
           <div className="inline-block px-7 py-2">
-            <button className="inline-block px-4 py-2 text-black bg-gray-100 font-medium rounded-xl shadow-md shadow-secondary outline-none border-2 border-secondary hover:bg-secondary hover:text-white hover:border-black hover: font-poppins">
+            <button className=" px-4 py-2 text-black font-semibold bg-gray-100 rounded-xl shadow-md shadow-secondary outline-none border-2 border-secondary hover:bg-secondary hover:text-white hover:border-black ">
               <Link href="/dashboard" key="dashboard">
                 Dashboard
               </Link>
