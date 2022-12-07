@@ -49,7 +49,7 @@ const Navbar: React.FC = () => {
       </div>
       {/* Desktop version */}
       <div className="hidden lg:flex lg:items-center lg:justify-between mx-24 py-6">
-        <Image src={onuLogo} alt="Oni Logo" width={100} height={200} />
+        <Image src={onuLogo} alt="Oni Logo" className="w-[10rem]" />
         <div>
           <Link href="/" key="home">
             <div
