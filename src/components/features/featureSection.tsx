@@ -50,12 +50,12 @@ const FeatureSection: React.FC<FeatureProps> = ({
           </div>
           <div
             className={`mt-12 sm:mt-16 lg:mt-0 ${
-              flipped ? "lg:col-start-1  " : ""
+              flipped ? "lg:col-start-1 -ml-60" : ""
             }`}
           >
-            <div className={`lg:relative lg:m-0 lg:h-full ${flipped ? "lg:relative lg:m-0 lg:h-full lg:px-0 float-left" : ""}`}>
+            <div className="lg:relative lg:m-0 lg:h-full ">
               <Image
-                className="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
+                className={`col-span-1 rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none`}
                 src={image}
                 alt="Inbox user interface"
               />
