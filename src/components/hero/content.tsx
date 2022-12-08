@@ -72,17 +72,17 @@ const Content: React.FC = () => {
             extremely customizable interface, Oni is built specifically for you.
           </p>
           <TitleButtons />
-          <div className="pt-10 lg:pt-20">
             <Stats />
-          </div>
         </div>
       </div>
+      <div className="relative hidden lg:flex">
+      <div className="absolute w-2/3 h-2/3 bottom-14 right-20 rounded-full border-2 border-gray-800 shadow-md shadow-gray-900 bg-tertiary"/>
       <Image
         src={OnuHeroImage}
         alt="HeroImage"
-        className="relative hidden lg:flex"
-        
+        className="z-30"
       />
+      </div>
     </div>
   );
 };

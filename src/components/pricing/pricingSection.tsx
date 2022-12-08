@@ -17,11 +17,11 @@ const PricingSection: React.FC<PricingProps> = ({ pricing }) => {
       <div className="relative z-0">
         <div className="absolute inset-0 h-5/6 bg-white lg:h-2/3" />
         <div className="mx-auto max-w-7xl">
-          <div className="relative lg:grid lg:grid-cols-6 lg:gap-4">
+          <div className="relative lg:grid lg:grid-cols-3 lg:gap-4">
             {pricing.map((tier) => (
               <div
                 key={tier.name}
-                className="max-w-none w-full lg:col-span-2 lg:max-w-5xl"
+                className="max-w-none w-full lg:col-span-1 lg:max-w-5xl"
               >
                 <div className="flex h-full flex-col overflow-hidden rounded-lg shadow-lg lg:rounded-none lg:rounded-l-lg">
                   <div className="flex flex-1 flex-col">

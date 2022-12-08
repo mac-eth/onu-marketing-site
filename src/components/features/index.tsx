@@ -5,14 +5,16 @@ import Feature2 from "./feature2";
 
 const Features: React.FC = () => {
   return (
-    <div className="min-h-screen relative">
-      <div className="py-24 sm:py-32 lg:py-40">
+    <div className="min-h-screen relative bg-white">
+      <div className="py-24 mx-12">
         <div className="mx-auto max-w-md px-6 text-center sm:max-w-3xl lg:max-w-7xl lg:px-8">
           <FeatureSectionDescription />
         </div>
       </div>
+      <div className="rounded-3xl bg-white mx-12">
       <Feature1 />
       <Feature2 />
+      </div>
     </div>
   );
 };

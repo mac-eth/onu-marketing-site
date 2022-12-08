@@ -5,14 +5,16 @@ module.exports = {
   ],
   theme: {
     fontFamily: {
-      default: ['Outfit', 'sans-serif'],
+      poppins: ['Poppins', 'sans-serif'],
     },
     extend: {
       colors: {
-        white: '#f5f5f4',
-        primary: '#417b5a',
-        secondary: '#3454D1',
-        tertiary: '#D1345B',
+        white: '#fffefe',
+        cream: '#f4f5fd',
+        primary: '#ffe6d1',
+        secondary: '#495bba',
+        tertiary: '#feda8f',
+        quaternary: '#fe91a4',
       },
     },
   },

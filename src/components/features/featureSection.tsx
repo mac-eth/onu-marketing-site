@@ -17,17 +17,17 @@ const FeatureSection: React.FC<FeatureProps> = ({
   image,
 }) => {
   return (
-    <div className="relative overflow-hidden bg-white pb-32">
+    <div className="relative pb-32">
       <div className="relative">
-        <div className="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-24 lg:px-8">
+        <div className="bg-cream rounded-3xl border-2 border-black shadow-md shadow-black lg:mx-auto lg:grid lg:max-w-7xl lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-24 lg:px-8">
           <div
             className={`mx-auto max-w-xl lg:mx-0 lg:max-w-none lg:py-16 ${
               flipped ? "lg:col-start-2" : ""
             }`}
           >
-            <div>
+            <div className="mx-12 lg:mx-4 mt-12 lg:mt-4">
               <div>
-                <span className="flex h-12 w-12 items-center justify-center rounded-xl bg-indigo-600">
+                <span className="flex h-12 w-12 items-center justify-center rounded-xl bg-tertiary text-gray-900 border-2 border-gray-900 ">
                   {icon}
                 </span>
               </div>
@@ -36,26 +36,25 @@ const FeatureSection: React.FC<FeatureProps> = ({
                   {name}
                 </h2>
                 <p className="mt-4 text-lg text-gray-500">{description}</p>
-                <div className="mt-6">
+                <div className="mt-6 flex justify-center lg:justify-start">
                   <a
                     href="#"
-                    className="inline-flex rounded-lg bg-indigo-600 px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-indigo-600 hover:bg-indigo-700 hover:ring-indigo-700"
+                    className="px-6 py-3 inline-flex rounded-xl whitespace-nowrap shadow-md shadow-gray-900 bg-secondary border-2 border-gray-900 text-white font-medium lg:text-xl hover:bg-gray-900 hover:shadow-gray-900 hover:scale-90"
                   >
-                    Get started
+                    Check it out
                   </a>
                 </div>
               </div>
             </div>
-            <div className="mt-8 border-t border-gray-200 pt-6" />
           </div>
           <div
             className={`mt-12 sm:mt-16 lg:mt-0 ${
-              flipped ? "lg:col-start-1 -ml-60" : ""
+              flipped ? "lg:col-start-1" : ""
             }`}
           >
-            <div className="lg:relative lg:m-0 lg:h-full ">
+            <div className="lg:relative lg:m-0 lg:h-full scale-110 ">
               <Image
-                className={`col-span-1 rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none`}
+                className={`col-span-1 rounded-3xl border-2 border-black shadow-sm shadow-black lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none`}
                 src={image}
                 alt="Inbox user interface"
               />
