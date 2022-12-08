@@ -19,7 +19,7 @@ const FeatureSection: React.FC<FeatureProps> = ({
   return (
     <div className="relative pb-32">
       <div className="relative">
-        <div className="bg-cream rounded-3xl border-2 border-black shadow-md shadow-black lg:mx-auto lg:grid lg:max-w-7xl lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-24 lg:px-8">
+        <div className="bg-cream rounded-3xl border-2 border-gray-900 shadow-md shadow-gray-900 lg:mx-auto lg:grid lg:max-w-7xl lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-24 lg:px-8">
           <div
             className={`mx-auto max-w-xl lg:mx-0 lg:max-w-none lg:py-16 ${
               flipped ? "lg:col-start-2" : ""
@@ -53,7 +53,7 @@ const FeatureSection: React.FC<FeatureProps> = ({
             }`}
           >
               <Image
-                className={`rounded-3xl border-2 border-black shadow-md shadow-black lg:absolute scale-110 lg:h-full lg:w-auto lg:max-w-none `}
+                className={`rounded-3xl border-2 border-gray-900 shadow-md shadow-gray-900 lg:absolute scale-110 lg:h-full lg:w-auto lg:max-w-none `}
                 src={image}
                 alt="Inbox user interface"
               />

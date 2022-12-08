@@ -55,9 +55,9 @@ const AboutFeatures: React.FC = () => {
             <div className="flow-root rounded-lg bg-gray-50 px-6 pb-8 border border-gray-900 shadow-md shadow-gray-900 transition duration-150 hover:scale-110">
               <div className="-mt-6">
                 <div>
-                  <span className="inline-flex border border-gray-900 items-center justify-center rounded-xl bg-secondary p-3">
+                  <span className="inline-flex border border-gray-900 items-center justify-center rounded-xl bg-tertiary p-3">
                     <feature.icon
-                      className="h-8 w-8 text-white"
+                      className="h-8 w-8 text-gray-900"
                       aria-hidden="true"
                     />
                   </span>
@@ -73,7 +73,7 @@ const AboutFeatures: React.FC = () => {
           </div>
         ))}
       </div>
-      <div className="z-1 rounded-3xl shadow-sm shadow-black absolute inset-0 inset-y-1/4 bg-cream" />
+      <div className="z-1 border border-gray-900 rounded-3xl absolute inset-0 inset-y-1/4 bg-secondary" />
     </div>
   );
 };

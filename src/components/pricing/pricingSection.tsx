@@ -1,83 +1,82 @@
-import { CheckIcon } from "@heroicons/react/24/outline";
-import React from "react";
+import { CheckCircleIcon } from "@heroicons/react/20/solid";
 
-export type PricingTier = {
-  name: string;
-  price: number;
-  features: string[];
-};
+const includedFeatures = [
+  "Private forum access",
+  "Member resources",
+  "Entry to annual conference",
+  "Official member t-shirt",
+];
 
-export type PricingProps = {
-  pricing: PricingTier[];
-};
-
-const PricingSection: React.FC<PricingProps> = ({ pricing }) => {
+const PricingSectionDescription: React.FC = () => {
   return (
-    <div className="mt-16 bg-white pb-12 lg:mt-20 lg:pb-20">
-      <div className="relative z-0">
-        <div className="absolute inset-0 h-5/6 bg-white lg:h-2/3" />
-        <div className="mx-auto max-w-7xl">
-          <div className="relative lg:grid lg:grid-cols-3 lg:gap-4">
-            {pricing.map((tier) => (
-              <div
-                key={tier.name}
-                className="max-w-none w-full lg:col-span-1 lg:max-w-5xl"
-              >
-                <div className="flex h-full flex-col overflow-hidden rounded-lg shadow-lg lg:rounded-none lg:rounded-l-lg">
-                  <div className="flex flex-1 flex-col">
-                    <div className="bg-white px-6 py-10">
-                      <div>
-                        <h3
-                          className="text-center text-2xl font-medium text-gray-900"
-                          id={`tier-${tier.name}`}
-                        >
-                          {tier.name}
-                        </h3>
-                        <div className="mt-4 flex items-center justify-center">
-                          <span className="flex items-start px-3 text-6xl tracking-tight text-gray-900">
-                            <span className="mt-2 mr-2 text-4xl font-medium tracking-tight">
-                              $
-                            </span>
-                            <span className="font-bold">{tier.price}</span>
-                          </span>
-                          <span className="text-xl font-medium text-gray-500">
-                            /month
-                          </span>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="flex flex-1 flex-col justify-between border-t-2 border-gray-100 bg-gray-50 p-6 sm:p-10 lg:p-6 xl:p-10">
-                      <ul role="list" className="space-y-4">
-                        {tier.features.map((feature) => (
-                          <li key={feature} className="flex items-start">
-                            <div className="flex-shrink-0">
-                              <CheckIcon
-                                className="h-6 w-6 flex-shrink-0 text-green-500"
-                                aria-hidden="true"
-                              />
-                            </div>
-                            <p className="ml-3 text-base font-medium text-gray-500">
-                              {feature}
-                            </p>
-                          </li>
-                        ))}
-                      </ul>
-                      <div className="mt-8">
-                        <div className="rounded-lg shadow-md">
-                          <a
-                            href="#"
-                            className="block w-full rounded-lg border border-transparent bg-white px-6 py-3 text-center text-base font-medium text-indigo-600 hover:bg-gray-50"
-                            aria-describedby={`tier-${tier.name}`}
-                          >
-                            Start your trial
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+    <div className="py-12 relative flex justify-center">
+      <div className="relative flex justify-center max-w-7xl px-4 sm:px-6 lg:px-8 ">
+        <div className="max-w-lg lg:flex lg:max-w-none lg:gap-8">
+          <div className="z-10 flex-1 bg-cream px-6 py-8 lg:p-12 border-2 border-black rounded-3xl shadow-md shadow-black duration-150 hover:scale-110 ">
+            <h3 className="text-2xl font-bold text-gray-900 sm:text-3xl sm:tracking-tight">
+              Lifetime Membership
+            </h3>
+            <p className="mt-6 text-base text-gray-500">
+              Lorem ipsum dolor sit amet consect etur adipisicing elit. Itaque
+              amet indis perferendis blanditiis repellendus etur quidem
+              assumenda.
+            </p>
+            <div className="mt-8">
+              <div className="flex items-center">
+                <h4 className="flex-shrink-0 bg-white pr-4 text-base font-semibold text-indigo-600">
+                  Whats included
+                </h4>
+                <div className="flex-1 border-t-2 border-gray-200" />
               </div>
-            ))}
+              <ul
+                role="list"
+                className="mt-8 space-y-5 lg:grid lg:grid-cols-2 lg:gap-x-8 lg:gap-y-5 lg:space-y-0"
+              >
+                {includedFeatures.map((feature) => (
+                  <li key={feature} className="flex items-start lg:col-span-1">
+                    <div className="flex-shrink-0">
+                      <CheckCircleIcon
+                        className="h-5 w-5 text-green-400"
+                        aria-hidden="true"
+                      />
+                    </div>
+                    <p className="ml-3 text-sm text-gray-700">{feature}</p>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </div>
+          <div className="bg-tertiary text-center border-2 border-black rounded-3xl shadow-md shadow-black lg:flex lg:flex-shrink-0 lg:flex-col lg:justify-center lg:p-12 duration-150 hover:scale-110">
+            <p className="text-lg font-medium leading-6 text-gray-900">
+              Pay once, own it forever
+            </p>
+            <div className="mt-4 flex items-center justify-center text-5xl font-bold tracking-tight text-gray-900">
+              <span>$349</span>
+              <span className="ml-3 text-xl font-medium tracking-normal text-gray-500">
+                USD
+              </span>
+            </div>
+            <p className="mt-4 text-sm">
+              <a href="#" className="font-medium text-gray-500 underline">
+                Learn about our membership policy
+              </a>
+            </p>
+            <div className="mt-6">
+              <div className="rounded-md shadow">
+                <a
+                  href="#"
+                  className="flex items-center justify-center rounded-md border border-transparent bg-gray-800 px-5 py-3 text-base font-medium text-white hover:bg-gray-900"
+                >
+                  Get Access
+                </a>
+              </div>
+            </div>
+            <div className="mt-4 text-sm">
+              <a href="#" className="font-medium text-gray-900">
+                Get a free sample{" "}
+                <span className="font-normal text-gray-500">(20MB)</span>
+              </a>
+            </div>
           </div>
         </div>
       </div>
@@ -85,4 +84,4 @@ const PricingSection: React.FC<PricingProps> = ({ pricing }) => {
   );
 };
 
-export default PricingSection;
+export default PricingSectionDescription;
