@@ -51,7 +51,7 @@ const AboutFeatures: React.FC = () => {
     <div className="py-20 relative mx-auto max-w-md text-center sm:max-w-3xl lg:max-w-7xl lg:px-8">
       <div className="grid grid-cols-1 gap-12 sm:grid-cols-2 lg:grid-cols-3">
         {features.map((feature) => (
-          <div key={feature.name} className="pt-6">
+          <div key={feature.name} className="z-10 pt-6">
             <div className="flow-root rounded-lg bg-gray-50 px-6 pb-8 border border-gray-900 shadow-md shadow-gray-900 transition duration-150 hover:scale-110">
               <div className="-mt-6">
                 <div>
@@ -73,6 +73,7 @@ const AboutFeatures: React.FC = () => {
           </div>
         ))}
       </div>
+      <div className="z-1 rounded-3xl shadow-sm shadow-black absolute inset-0 inset-y-1/4 bg-cream" />
     </div>
   );
 };

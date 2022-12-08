@@ -5,7 +5,7 @@ import Pricing from "../components/pricing";
 
 export default function Home() {
   return (
-    <div className="bg-white select-none scroll-smooth lg:snap-y lg:h-screen lg:overflow-scroll">
+    <div className="bg-white select-none scroll-smooth lg:snap-y lg:h-screen">
       <Hero />
       <Features />
       <About />
