@@ -1,13 +1,13 @@
 import SectionDescriptions from "../common/sectionDescriptions";
 
-const FeatureDescription: React.FC = () => {
+const PricingSectionDescription: React.FC = () => {
   return (
     <SectionDescriptions
-      title="Features"
+      title="Pricing"
       heading="Everything you need to build your next project"
       description="Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis. Ac tinci"
     />
   );
 };
 
-export default FeatureDescription;
+export default PricingSectionDescription;

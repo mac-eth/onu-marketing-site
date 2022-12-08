@@ -1,6 +1,7 @@
 import About from "../components/about";
 import Features from "../components/features";
 import Hero from "../components/hero";
+import Pricing from "../components/pricing";
 
 export default function Home() {
   return (
@@ -9,6 +10,7 @@ export default function Home() {
       <div className="mx-12">
       <Features />
       <About />
+      <Pricing />
       </div>
     </div>
   );
