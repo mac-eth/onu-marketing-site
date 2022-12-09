@@ -1,13 +1,6 @@
 import React from "react";
-import Image, { StaticImageData } from "next/image";
-
-type FeatureProps = {
-  icon: React.ReactElement;
-  name: string;
-  description: string;
-  flipped: boolean;
-  image: StaticImageData;
-};
+import Image from "next/image";
+import { FeatureProps } from "../../../types";
 
 const FeatureSection: React.FC<FeatureProps> = ({
   icon,

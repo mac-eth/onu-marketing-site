@@ -1,54 +1,55 @@
 import {
-  ArrowPathIcon,
-  CloudArrowUpIcon,
-  CogIcon,
-  LockClosedIcon,
-  ServerIcon,
-  ShieldCheckIcon,
+  GiftIcon,
+  BriefcaseIcon,
+  TrophyIcon,
+  RectangleGroupIcon,
+  BoltIcon,
+  CircleStackIcon,
 } from "@heroicons/react/24/outline";
+import { AboutFeatures } from "../../../types";
 
-const features = [
+const features: AboutFeatures = [
   {
-    name: "Push to Deploy",
+    name: "Customizable Rewards",
     description:
       "Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.",
-    icon: CloudArrowUpIcon,
+    icon: GiftIcon,
   },
   {
-    name: "SSL Certificates",
+    name: "Customizable Tasks",
     description:
       "Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.",
-    icon: LockClosedIcon,
+    icon: BriefcaseIcon,
   },
   {
-    name: "Simple Queues",
+    name: "Competitive Leaderboards",
     description:
       "Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.",
-    icon: ArrowPathIcon,
+    icon: TrophyIcon,
   },
   {
-    name: "Advanced Security",
+    name: "Configuration Templates",
     description:
       "Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.",
-    icon: ShieldCheckIcon,
+    icon: RectangleGroupIcon,
   },
   {
     name: "Powerful API",
     description:
       "Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.",
-    icon: CogIcon,
+    icon: BoltIcon,
   },
   {
     name: "Database Backups",
     description:
       "Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.",
-    icon: ServerIcon,
+    icon: CircleStackIcon,
   },
 ];
 
 const AboutFeatures: React.FC = () => {
   return (
-    <div className="py-20 relative mx-auto max-w-md text-center sm:max-w-3xl lg:max-w-7xl lg:px-8">
+    <div className="my-20 relative mx-auto max-w-md text-center sm:max-w-3xl lg:max-w-7xl lg:px-8">
       <div className="grid grid-cols-1 gap-12 sm:grid-cols-2 lg:grid-cols-3">
         {features.map((feature) => (
           <div key={feature.name} className="z-10 pt-6">
@@ -73,7 +74,7 @@ const AboutFeatures: React.FC = () => {
           </div>
         ))}
       </div>
-      <div className="z-1 border border-gray-900 rounded-3xl absolute inset-0 inset-y-1/4 bg-secondary" />
+      <div className="z-1 border border-gray-900 rounded-3xl absolute inset-0 lg:inset-y-1/4 bg-secondary" />
     </div>
   );
 };

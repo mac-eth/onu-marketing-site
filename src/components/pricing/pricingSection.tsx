@@ -1,6 +1,6 @@
 import { CheckCircleIcon } from "@heroicons/react/20/solid";
 
-const includedFeatures = [
+const includedFeatures: Array<string> = [
   "Private forum access",
   "Member resources",
   "Entry to annual conference",
@@ -14,13 +14,18 @@ const PricingSectionDescription: React.FC = () => {
         <div className="max-w-lg lg:flex lg:max-w-none lg:gap-8">
           <div className="z-10 flex-1 bg-cream px-6 py-8 lg:p-12 border-2 border-black rounded-3xl shadow-md shadow-black duration-150 hover:scale-110 ">
             <h3 className="text-2xl font-bold text-gray-900 sm:text-3xl sm:tracking-tight">
-              Lifetime Membership
+              Get Started Absolutely Free
             </h3>
-            <p className="mt-6 text-base text-gray-500">
-              Lorem ipsum dolor sit amet consect etur adipisicing elit. Itaque
-              amet indis perferendis blanditiis repellendus etur quidem
-              assumenda.
-            </p>
+            <div className="mt-6">
+              <div className="rounded-md shadow">
+                <a
+                  href="#"
+                  className="flex items-center justify-center rounded-md border border-transparent bg-gray-800 px-5 py-3 text-base font-medium text-white hover:bg-gray-900"
+                >
+                  Get Access
+                </a>
+              </div>
+            </div>
             <div className="mt-8">
               <div className="flex items-center">
                 <h4 className="flex-shrink-0 bg-white pr-4 text-base font-semibold text-indigo-600">
@@ -46,12 +51,12 @@ const PricingSectionDescription: React.FC = () => {
               </ul>
             </div>
           </div>
-          <div className="bg-tertiary text-center border-2 border-black rounded-3xl shadow-md shadow-black lg:flex lg:flex-shrink-0 lg:flex-col lg:justify-center lg:p-12 duration-150 hover:scale-110">
+          <div className="bg-tertiary text-center border-2 border-black rounded-3xl my-12 py-12 px-4 shadow-md shadow-black lg:flex lg:flex-shrink-0 lg:flex-col lg:justify-center lg:p-12 duration-150 hover:scale-110">
             <p className="text-lg font-medium leading-6 text-gray-900">
-              Pay once, own it forever
+              Per Plugin /Month
             </p>
             <div className="mt-4 flex items-center justify-center text-5xl font-bold tracking-tight text-gray-900">
-              <span>$349</span>
+              <span>$29</span>
               <span className="ml-3 text-xl font-medium tracking-normal text-gray-500">
                 USD
               </span>

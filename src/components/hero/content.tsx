@@ -4,8 +4,9 @@ import Image from "next/image";
 import TitleButtons from "./titleButtons";
 import Stats from "./stats";
 import OnuHeroImage from "../../assets/OnuHeroImage.png";
+import { TitleWordArray } from "../../../types";
 
-const titleArray = [
+const titleArray: TitleWordArray = [
   {
     title: "Youtube",
     color: "text-[#fe0021]",
@@ -68,8 +69,7 @@ const Content: React.FC = () => {
           </h1>
 
           <p className="text-center lg:text-left mt-8 text-gray-800 text-md lg:text-xl">
-            Oni gives you the tools you need to grow your platforms. With an
-            extremely customizable interface, Oni is built specifically for you.
+            With an extremely customizable and easy to you use interface, Onu gives you the tools you need to grow your business.
           </p>
           <TitleButtons />
             <Stats />

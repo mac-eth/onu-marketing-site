@@ -2,6 +2,7 @@ import React from "react";
 import FeatureSectionDescription from "./featureSectionDescription";
 import Feature1 from "./feature1";
 import Feature2 from "./feature2";
+import Feature3 from "./feature3";
 
 const Features: React.FC = () => {
   return (
@@ -14,6 +15,7 @@ const Features: React.FC = () => {
       <div className="rounded-3xl bg-white mx-12">
       <Feature1 />
       <Feature2 />
+      <Feature3 />
       </div>
     </div>
   );

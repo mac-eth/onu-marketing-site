@@ -1,6 +1,7 @@
 import React from "react";
+import type { StatsArray } from "../../../types";
 
-const statsArray = [
+const statsArray: StatsArray = [
     {
         title: "Active Users",
         value: "201k+",
