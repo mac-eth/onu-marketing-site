@@ -10,7 +10,7 @@ export type StatsArray = {
   key: number;
 }[];
 
-export type AboutFeatures = {
+export type AboutFeaturesArray = {
   name: string;
   description: string;
   icon: SVGProps<SVGSVGElement> & { title?: string | undefined; titleId?: string | undefined; };
