@@ -1,0 +1,694 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Feature1 Renders the component unchanged 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="relative pb-32"
+      >
+        <div
+          class="relative"
+        >
+          <div
+            class="bg-cream rounded-3xl border-2 border-gray-900 shadow-md shadow-gray-900 lg:mx-auto lg:grid lg:max-w-7xl lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-24 lg:px-8"
+          >
+            <div
+              class="mx-auto max-w-xl lg:mx-0 lg:max-w-none lg:py-16 "
+              data-testid="FlippedText"
+            >
+              <div
+                class="mx-12 lg:mx-4 mt-12 lg:mt-4"
+              >
+                <div>
+                  <span
+                    class="flex h-12 w-12 items-center justify-center rounded-xl bg-tertiary text-gray-900 border-2 border-gray-900 "
+                  >
+                    <svg
+                      aria-hidden="true"
+                      aria-label="CpuChipIcon"
+                      class="h-8 w-8"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="1.5"
+                      viewBox="0 0 24 24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M8.25 3v1.5M4.5 8.25H3m18 0h-1.5M4.5 12H3m18 0h-1.5m-15 3.75H3m18 0h-1.5M8.25 19.5V21M12 3v1.5m0 15V21m3.75-18v1.5m0 15V21m-9-1.5h10.5a2.25 2.25 0 002.25-2.25V6.75a2.25 2.25 0 00-2.25-2.25H6.75A2.25 2.25 0 004.5 6.75v10.5a2.25 2.25 0 002.25 2.25zm.75-12h9v9h-9v-9z"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                  </span>
+                </div>
+                <div
+                  class="mt-6"
+                >
+                  <h2
+                    class="text-3xl font-bold tracking-tight text-gray-900"
+                  >
+                    Connect all your social media platforms to one dashboard
+                  </h2>
+                  <p
+                    class="mt-4 text-lg text-gray-500"
+                  >
+                    Semper curabitur ullamcorper posuere nunc sed. Ornare iaculis bibendum malesuada faucibus lacinia porttitor. Pulvinar laoreet sagittis viverra duis. In venenatis sem arcu pretium pharetra at. Lectus viverra dui tellus ornare pharetra.
+                  </p>
+                  <div
+                    class="mt-6 flex justify-center lg:justify-start"
+                  >
+                    <a
+                      class="px-6 py-3 inline-flex rounded-xl whitespace-nowrap shadow-md shadow-gray-900 bg-secondary border-2 border-gray-900 text-white font-medium lg:text-xl hover:bg-gray-900 duration-150 hover:shadow-gray-900 hover:scale-110"
+                      href="#"
+                    >
+                      Check it out
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="mt-12 sm:mt-16 lg:mt-0 duration-150 hover:scale-110 hover:rotate-3"
+              data-testid="FlippedImage"
+            >
+              <img
+                alt="FeatureImage-1"
+                class="rounded-3xl border-2 border-gray-900 shadow-md shadow-gray-900 lg:absolute scale-110 lg:h-full lg:w-auto lg:max-w-none "
+                data-nimg="1"
+                decoding="async"
+                height="40"
+                loading="lazy"
+                src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+                srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+                style="color: transparent;"
+                width="40"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="relative pb-32"
+    >
+      <div
+        class="relative"
+      >
+        <div
+          class="bg-cream rounded-3xl border-2 border-gray-900 shadow-md shadow-gray-900 lg:mx-auto lg:grid lg:max-w-7xl lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-24 lg:px-8"
+        >
+          <div
+            class="mx-auto max-w-xl lg:mx-0 lg:max-w-none lg:py-16 "
+            data-testid="FlippedText"
+          >
+            <div
+              class="mx-12 lg:mx-4 mt-12 lg:mt-4"
+            >
+              <div>
+                <span
+                  class="flex h-12 w-12 items-center justify-center rounded-xl bg-tertiary text-gray-900 border-2 border-gray-900 "
+                >
+                  <svg
+                    aria-hidden="true"
+                    aria-label="CpuChipIcon"
+                    class="h-8 w-8"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M8.25 3v1.5M4.5 8.25H3m18 0h-1.5M4.5 12H3m18 0h-1.5m-15 3.75H3m18 0h-1.5M8.25 19.5V21M12 3v1.5m0 15V21m3.75-18v1.5m0 15V21m-9-1.5h10.5a2.25 2.25 0 002.25-2.25V6.75a2.25 2.25 0 00-2.25-2.25H6.75A2.25 2.25 0 004.5 6.75v10.5a2.25 2.25 0 002.25 2.25zm.75-12h9v9h-9v-9z"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </span>
+              </div>
+              <div
+                class="mt-6"
+              >
+                <h2
+                  class="text-3xl font-bold tracking-tight text-gray-900"
+                >
+                  Connect all your social media platforms to one dashboard
+                </h2>
+                <p
+                  class="mt-4 text-lg text-gray-500"
+                >
+                  Semper curabitur ullamcorper posuere nunc sed. Ornare iaculis bibendum malesuada faucibus lacinia porttitor. Pulvinar laoreet sagittis viverra duis. In venenatis sem arcu pretium pharetra at. Lectus viverra dui tellus ornare pharetra.
+                </p>
+                <div
+                  class="mt-6 flex justify-center lg:justify-start"
+                >
+                  <a
+                    class="px-6 py-3 inline-flex rounded-xl whitespace-nowrap shadow-md shadow-gray-900 bg-secondary border-2 border-gray-900 text-white font-medium lg:text-xl hover:bg-gray-900 duration-150 hover:shadow-gray-900 hover:scale-110"
+                    href="#"
+                  >
+                    Check it out
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="mt-12 sm:mt-16 lg:mt-0 duration-150 hover:scale-110 hover:rotate-3"
+            data-testid="FlippedImage"
+          >
+            <img
+              alt="FeatureImage-1"
+              class="rounded-3xl border-2 border-gray-900 shadow-md shadow-gray-900 lg:absolute scale-110 lg:h-full lg:w-auto lg:max-w-none "
+              data-nimg="1"
+              decoding="async"
+              height="40"
+              loading="lazy"
+              src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+              srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+              style="color: transparent;"
+              width="40"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Feature2 Renders the component unchanged 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="relative pb-32"
+      >
+        <div
+          class="relative"
+        >
+          <div
+            class="bg-cream rounded-3xl border-2 border-gray-900 shadow-md shadow-gray-900 lg:mx-auto lg:grid lg:max-w-7xl lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-24 lg:px-8"
+          >
+            <div
+              class="mx-auto max-w-xl lg:mx-0 lg:max-w-none lg:py-16 lg:col-start-2"
+              data-testid="FlippedText"
+            >
+              <div
+                class="mx-12 lg:mx-4 mt-12 lg:mt-4"
+              >
+                <div>
+                  <span
+                    class="flex h-12 w-12 items-center justify-center rounded-xl bg-tertiary text-gray-900 border-2 border-gray-900 "
+                  >
+                    <svg
+                      aria-hidden="true"
+                      aria-label="ChatBubbleLeftRightIcon"
+                      class="h-8 w-8"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="1.5"
+                      viewBox="0 0 24 24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M20.25 8.511c.884.284 1.5 1.128 1.5 2.097v4.286c0 1.136-.847 2.1-1.98 2.193-.34.027-.68.052-1.02.072v3.091l-3-3c-1.354 0-2.694-.055-4.02-.163a2.115 2.115 0 01-.825-.242m9.345-8.334a2.126 2.126 0 00-.476-.095 48.64 48.64 0 00-8.048 0c-1.131.094-1.976 1.057-1.976 2.192v4.286c0 .837.46 1.58 1.155 1.951m9.345-8.334V6.637c0-1.621-1.152-3.026-2.76-3.235A48.455 48.455 0 0011.25 3c-2.115 0-4.198.137-6.24.402-1.608.209-2.76 1.614-2.76 3.235v6.226c0 1.621 1.152 3.026 2.76 3.235.577.075 1.157.14 1.74.194V21l4.155-4.155"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                  </span>
+                </div>
+                <div
+                  class="mt-6"
+                >
+                  <h2
+                    class="text-3xl font-bold tracking-tight text-gray-900"
+                  >
+                    Increase engagement rates with our AI powered algorithms
+                  </h2>
+                  <p
+                    class="mt-4 text-lg text-gray-500"
+                  >
+                    Semper curabitur ullamcorper posuere nunc sed. Ornare iaculis bibendum malesuada faucibus lacinia porttitor. Pulvinar laoreet sagittis viverra duis. In venenatis sem arcu pretium pharetra at. Lectus viverra dui tellus ornare pharetra.
+                  </p>
+                  <div
+                    class="mt-6 flex justify-center lg:justify-start"
+                  >
+                    <a
+                      class="px-6 py-3 inline-flex rounded-xl whitespace-nowrap shadow-md shadow-gray-900 bg-secondary border-2 border-gray-900 text-white font-medium lg:text-xl hover:bg-gray-900 duration-150 hover:shadow-gray-900 hover:scale-110"
+                      href="#"
+                    >
+                      Check it out
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="mt-12 sm:mt-16 lg:mt-0 duration-150 hover:scale-110 lg:flex lg:justify-end hover:-rotate-3"
+              data-testid="FlippedImage"
+            >
+              <img
+                alt="FeatureImage-2"
+                class="rounded-3xl border-2 border-gray-900 shadow-md shadow-gray-900 lg:absolute scale-110 lg:h-full lg:w-auto lg:max-w-none "
+                data-nimg="1"
+                decoding="async"
+                height="40"
+                loading="lazy"
+                src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+                srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+                style="color: transparent;"
+                width="40"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="relative pb-32"
+    >
+      <div
+        class="relative"
+      >
+        <div
+          class="bg-cream rounded-3xl border-2 border-gray-900 shadow-md shadow-gray-900 lg:mx-auto lg:grid lg:max-w-7xl lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-24 lg:px-8"
+        >
+          <div
+            class="mx-auto max-w-xl lg:mx-0 lg:max-w-none lg:py-16 lg:col-start-2"
+            data-testid="FlippedText"
+          >
+            <div
+              class="mx-12 lg:mx-4 mt-12 lg:mt-4"
+            >
+              <div>
+                <span
+                  class="flex h-12 w-12 items-center justify-center rounded-xl bg-tertiary text-gray-900 border-2 border-gray-900 "
+                >
+                  <svg
+                    aria-hidden="true"
+                    aria-label="ChatBubbleLeftRightIcon"
+                    class="h-8 w-8"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M20.25 8.511c.884.284 1.5 1.128 1.5 2.097v4.286c0 1.136-.847 2.1-1.98 2.193-.34.027-.68.052-1.02.072v3.091l-3-3c-1.354 0-2.694-.055-4.02-.163a2.115 2.115 0 01-.825-.242m9.345-8.334a2.126 2.126 0 00-.476-.095 48.64 48.64 0 00-8.048 0c-1.131.094-1.976 1.057-1.976 2.192v4.286c0 .837.46 1.58 1.155 1.951m9.345-8.334V6.637c0-1.621-1.152-3.026-2.76-3.235A48.455 48.455 0 0011.25 3c-2.115 0-4.198.137-6.24.402-1.608.209-2.76 1.614-2.76 3.235v6.226c0 1.621 1.152 3.026 2.76 3.235.577.075 1.157.14 1.74.194V21l4.155-4.155"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </span>
+              </div>
+              <div
+                class="mt-6"
+              >
+                <h2
+                  class="text-3xl font-bold tracking-tight text-gray-900"
+                >
+                  Increase engagement rates with our AI powered algorithms
+                </h2>
+                <p
+                  class="mt-4 text-lg text-gray-500"
+                >
+                  Semper curabitur ullamcorper posuere nunc sed. Ornare iaculis bibendum malesuada faucibus lacinia porttitor. Pulvinar laoreet sagittis viverra duis. In venenatis sem arcu pretium pharetra at. Lectus viverra dui tellus ornare pharetra.
+                </p>
+                <div
+                  class="mt-6 flex justify-center lg:justify-start"
+                >
+                  <a
+                    class="px-6 py-3 inline-flex rounded-xl whitespace-nowrap shadow-md shadow-gray-900 bg-secondary border-2 border-gray-900 text-white font-medium lg:text-xl hover:bg-gray-900 duration-150 hover:shadow-gray-900 hover:scale-110"
+                    href="#"
+                  >
+                    Check it out
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="mt-12 sm:mt-16 lg:mt-0 duration-150 hover:scale-110 lg:flex lg:justify-end hover:-rotate-3"
+            data-testid="FlippedImage"
+          >
+            <img
+              alt="FeatureImage-2"
+              class="rounded-3xl border-2 border-gray-900 shadow-md shadow-gray-900 lg:absolute scale-110 lg:h-full lg:w-auto lg:max-w-none "
+              data-nimg="1"
+              decoding="async"
+              height="40"
+              loading="lazy"
+              src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+              srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+              style="color: transparent;"
+              width="40"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Feature3 Renders the component unchanged 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="relative pb-32"
+      >
+        <div
+          class="relative"
+        >
+          <div
+            class="bg-cream rounded-3xl border-2 border-gray-900 shadow-md shadow-gray-900 lg:mx-auto lg:grid lg:max-w-7xl lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-24 lg:px-8"
+          >
+            <div
+              class="mx-auto max-w-xl lg:mx-0 lg:max-w-none lg:py-16 "
+              data-testid="FlippedText"
+            >
+              <div
+                class="mx-12 lg:mx-4 mt-12 lg:mt-4"
+              >
+                <div>
+                  <span
+                    class="flex h-12 w-12 items-center justify-center rounded-xl bg-tertiary text-gray-900 border-2 border-gray-900 "
+                  >
+                    <svg
+                      aria-hidden="true"
+                      aria-label="ChartBarSquareIcon"
+                      class=""
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="1.5"
+                      viewBox="0 0 24 24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M7.5 14.25v2.25m3-4.5v4.5m3-6.75v6.75m3-9v9M6 20.25h12A2.25 2.25 0 0020.25 18V6A2.25 2.25 0 0018 3.75H6A2.25 2.25 0 003.75 6v12A2.25 2.25 0 006 20.25z"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                  </span>
+                </div>
+                <div
+                  class="mt-6"
+                >
+                  <h2
+                    class="text-3xl font-bold tracking-tight text-gray-900"
+                  >
+                    Get real time analytics using OnuPulse
+                  </h2>
+                  <p
+                    class="mt-4 text-lg text-gray-500"
+                  >
+                    Semper curabitur ullamcorper posuere nunc sed. Ornare iaculis bibendum malesuada faucibus lacinia porttitor. Pulvinar laoreet sagittis viverra duis. In venenatis sem arcu pretium pharetra at. Lectus viverra dui tellus ornare pharetra.
+                  </p>
+                  <div
+                    class="mt-6 flex justify-center lg:justify-start"
+                  >
+                    <a
+                      class="px-6 py-3 inline-flex rounded-xl whitespace-nowrap shadow-md shadow-gray-900 bg-secondary border-2 border-gray-900 text-white font-medium lg:text-xl hover:bg-gray-900 duration-150 hover:shadow-gray-900 hover:scale-110"
+                      href="#"
+                    >
+                      Check it out
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="mt-12 sm:mt-16 lg:mt-0 duration-150 hover:scale-110 hover:rotate-3"
+              data-testid="FlippedImage"
+            >
+              <img
+                alt="FeatureImage-3"
+                class="rounded-3xl border-2 border-gray-900 shadow-md shadow-gray-900 lg:absolute scale-110 lg:h-full lg:w-auto lg:max-w-none "
+                data-nimg="1"
+                decoding="async"
+                height="40"
+                loading="lazy"
+                src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+                srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+                style="color: transparent;"
+                width="40"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="relative pb-32"
+    >
+      <div
+        class="relative"
+      >
+        <div
+          class="bg-cream rounded-3xl border-2 border-gray-900 shadow-md shadow-gray-900 lg:mx-auto lg:grid lg:max-w-7xl lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-24 lg:px-8"
+        >
+          <div
+            class="mx-auto max-w-xl lg:mx-0 lg:max-w-none lg:py-16 "
+            data-testid="FlippedText"
+          >
+            <div
+              class="mx-12 lg:mx-4 mt-12 lg:mt-4"
+            >
+              <div>
+                <span
+                  class="flex h-12 w-12 items-center justify-center rounded-xl bg-tertiary text-gray-900 border-2 border-gray-900 "
+                >
+                  <svg
+                    aria-hidden="true"
+                    aria-label="ChartBarSquareIcon"
+                    class=""
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M7.5 14.25v2.25m3-4.5v4.5m3-6.75v6.75m3-9v9M6 20.25h12A2.25 2.25 0 0020.25 18V6A2.25 2.25 0 0018 3.75H6A2.25 2.25 0 003.75 6v12A2.25 2.25 0 006 20.25z"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </span>
+              </div>
+              <div
+                class="mt-6"
+              >
+                <h2
+                  class="text-3xl font-bold tracking-tight text-gray-900"
+                >
+                  Get real time analytics using OnuPulse
+                </h2>
+                <p
+                  class="mt-4 text-lg text-gray-500"
+                >
+                  Semper curabitur ullamcorper posuere nunc sed. Ornare iaculis bibendum malesuada faucibus lacinia porttitor. Pulvinar laoreet sagittis viverra duis. In venenatis sem arcu pretium pharetra at. Lectus viverra dui tellus ornare pharetra.
+                </p>
+                <div
+                  class="mt-6 flex justify-center lg:justify-start"
+                >
+                  <a
+                    class="px-6 py-3 inline-flex rounded-xl whitespace-nowrap shadow-md shadow-gray-900 bg-secondary border-2 border-gray-900 text-white font-medium lg:text-xl hover:bg-gray-900 duration-150 hover:shadow-gray-900 hover:scale-110"
+                    href="#"
+                  >
+                    Check it out
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="mt-12 sm:mt-16 lg:mt-0 duration-150 hover:scale-110 hover:rotate-3"
+            data-testid="FlippedImage"
+          >
+            <img
+              alt="FeatureImage-3"
+              class="rounded-3xl border-2 border-gray-900 shadow-md shadow-gray-900 lg:absolute scale-110 lg:h-full lg:w-auto lg:max-w-none "
+              data-nimg="1"
+              decoding="async"
+              height="40"
+              loading="lazy"
+              src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+              srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+              style="color: transparent;"
+              width="40"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

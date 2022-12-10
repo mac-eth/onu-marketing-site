@@ -17,6 +17,7 @@ export type AboutFeaturesArray = {
 }[];
 
 export type FeatureProps = {
+  id: number;
   icon: React.ReactElement;
   name: string;
   description: string;

@@ -1,10 +1,10 @@
 import React from "react";
-import NavbarStructure from "./navbarStructure";
+import FooterStructure from "./footerStructure";
 
-const Navbar: React.FC = () => {
+const Footer: React.FC = () => {
     return (
-        <NavbarStructure />
+        <FooterStructure />
     )
 }
 
-export default Navbar;
+export default Footer;

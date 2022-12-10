@@ -3,6 +3,7 @@ import Image from "next/image";
 import { FeatureProps } from "../../../types";
 
 const FeatureSection: React.FC<FeatureProps> = ({
+  id,
   icon,
   name,
   description,
@@ -17,6 +18,7 @@ const FeatureSection: React.FC<FeatureProps> = ({
             className={`mx-auto max-w-xl lg:mx-0 lg:max-w-none lg:py-16 ${
               flipped ? "lg:col-start-2" : ""
             }`}
+            data-testid="FlippedText"
           >
             <div className="mx-12 lg:mx-4 mt-12 lg:mt-4">
               <div>
@@ -44,11 +46,12 @@ const FeatureSection: React.FC<FeatureProps> = ({
             className={`mt-12 sm:mt-16 lg:mt-0 duration-150 hover:scale-110 ${
               flipped ? "lg:flex lg:justify-end hover:-rotate-3" : "hover:rotate-3"
             }`}
+            data-testid="FlippedImage"
           >
               <Image
                 className={`rounded-3xl border-2 border-gray-900 shadow-md shadow-gray-900 lg:absolute scale-110 lg:h-full lg:w-auto lg:max-w-none `}
                 src={image}
-                alt="Inbox user interface"
+                alt={`FeatureImage-${id}`}
               />
           </div>
         </div>
