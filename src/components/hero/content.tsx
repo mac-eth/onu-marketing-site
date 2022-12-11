@@ -50,11 +50,11 @@ const Content: React.FC = () => {
     <div className="grid gap-1 grid-cols-1 lg:grid-cols-2 lg:gap-8">
       <div className="flex col-span-1 justify-center lg:justify-start mx-12 lg:mx-24 pt-2 xl:pt-10 2xl:pt-40">
         <div>
-          <h1 className="text-center lg:text-left text-3xl lg:text-7xl font-bold text-gray-900">
+          <h1 className="text-center lg:text-left text-3xl lg:text-7xl font-bold text-gray-900" role="heading" aria-label="title1">
             Take Control of Your
           </h1>
           <h1
-            className={`text-center lg:text-left text-3xl lg:text-7xl font-bold ${currentTitle.color} flex-wrap`}
+            className={`text-center lg:text-left text-3xl lg:text-7xl font-bold ${currentTitle.color} flex-wrap`} role="heading" aria-label="title2"
           >
             <Typewriter
               options={{
@@ -62,10 +62,11 @@ const Content: React.FC = () => {
                 autoStart: true,
                 loop: true,
               }}
+            
             />
-            <a className="text-center lg:text-left text-3xl lg:text-7xl font-bold text-gray-900">
+            <p className="text-center lg:text-left text-3xl lg:text-7xl font-bold text-gray-900">
               Business.
-            </a>
+            </p>
           </h1>
 
           <p className="text-center lg:text-left mt-8 text-gray-800 text-md lg:text-xl">
@@ -81,6 +82,7 @@ const Content: React.FC = () => {
         src={OnuHeroImage}
         alt="HeroImage"
         className="z-30"
+        role={"img"}
       />
       </div>
     </div>

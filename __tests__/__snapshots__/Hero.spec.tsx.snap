@@ -1,0 +1,362 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Content Renders the component unchanged 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="grid gap-1 grid-cols-1 lg:grid-cols-2 lg:gap-8"
+      >
+        <div
+          class="flex col-span-1 justify-center lg:justify-start mx-12 lg:mx-24 pt-2 xl:pt-10 2xl:pt-40"
+        >
+          <div>
+            <h1
+              aria-label="title1"
+              class="text-center lg:text-left text-3xl lg:text-7xl font-bold text-gray-900"
+              role="heading"
+            >
+              Take Control of Your
+            </h1>
+            <h1
+              aria-label="title2"
+              class="text-center lg:text-left text-3xl lg:text-7xl font-bold text-[#fe0021] flex-wrap"
+              role="heading"
+            >
+              <div
+                class="Typewriter"
+                data-testid="typewriter-wrapper"
+              >
+                <span
+                  class="Typewriter__wrapper"
+                />
+                <span
+                  class="Typewriter__cursor"
+                >
+                  |
+                </span>
+              </div>
+              <p
+                class="text-center lg:text-left text-3xl lg:text-7xl font-bold text-gray-900"
+              >
+                Business.
+              </p>
+            </h1>
+            <p
+              class="text-center lg:text-left mt-8 text-gray-800 text-md lg:text-xl"
+            >
+              With an extremely customizable and easy to you use interface, Onu gives you the tools you need to grow your business.
+            </p>
+            <div>
+              <div
+                class="flex justify-center text-center lg:justify-start mt-12 gap-6 pb-8"
+              >
+                <button
+                  aria-label="Read-More"
+                  class="px-6 py-3 rounded-xl shadow-md bg-white shadow-secondary border-2 border-secondary text-gray-900 font-medium text-lg lg:text-xl hover:bg-secondary hover:text-white hover:scale-110 duration-150"
+                  role="button"
+                >
+                  Read More
+                </button>
+                <button
+                  aria-label="Get-Started"
+                  class="px-6 py-3 flex rounded-xl whitespace-nowrap shadow-md shadow-gray-900 bg-secondary border-2 border-gray-900 text-white font-medium text-lg lg:text-xl hover:bg-gray-900 hover:text-white hover:scale-110 duration-150"
+                  role="button"
+                >
+                  Get Started
+                  <svg
+                    aria-hidden="true"
+                    class="ml-2 h-7 w-7 text-white"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </button>
+              </div>
+            </div>
+            <div
+              aria-label="stats"
+              class="flex flex-row col-span-2 lg:col-span-2 justify-between border-2 rounded-xl border-gray-900 shadow-md shadow-gray-900 lg:mr-10 bg-cream"
+              role="banner"
+            >
+              <div
+                class="my-4 mx-2 lg:my-10 lg:mx-10 flex flex-col items-center lg:gap-2"
+              >
+                <h1
+                  class="text-3xl xl:text-5xl font-bold font-poppins italic text-secondary"
+                >
+                  201k+
+                </h1>
+                <h1
+                  class="text-lg xl:text-2xl font-medium font-poppins text-gray-900"
+                >
+                  Active Users
+                </h1>
+              </div>
+              <div
+                class="my-4 mx-2 lg:my-10 lg:mx-10 flex flex-col items-center lg:gap-2"
+              >
+                <h1
+                  class="text-3xl xl:text-5xl font-bold font-poppins italic text-secondary"
+                >
+                  1.4k+
+                </h1>
+                <h1
+                  class="text-lg xl:text-2xl font-medium font-poppins text-gray-900"
+                >
+                  Members
+                </h1>
+              </div>
+              <div
+                class="my-4 mx-2 lg:my-10 lg:mx-10 flex flex-col items-center lg:gap-2"
+              >
+                <h1
+                  class="text-3xl xl:text-5xl font-bold font-poppins italic text-secondary"
+                >
+                  31
+                </h1>
+                <h1
+                  class="text-lg xl:text-2xl font-medium font-poppins text-gray-900"
+                >
+                  Platforms
+                </h1>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="relative hidden lg:flex"
+        >
+          <div
+            class="absolute w-2/3 h-2/3 bottom-14 right-20 rounded-full border-2 border-gray-800 shadow-md shadow-gray-900 bg-tertiary"
+          />
+          <img
+            alt="HeroImage"
+            class="z-30"
+            data-nimg="1"
+            decoding="async"
+            height="40"
+            loading="lazy"
+            role="img"
+            src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+            srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+            style="color: transparent;"
+            width="40"
+          />
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="grid gap-1 grid-cols-1 lg:grid-cols-2 lg:gap-8"
+    >
+      <div
+        class="flex col-span-1 justify-center lg:justify-start mx-12 lg:mx-24 pt-2 xl:pt-10 2xl:pt-40"
+      >
+        <div>
+          <h1
+            aria-label="title1"
+            class="text-center lg:text-left text-3xl lg:text-7xl font-bold text-gray-900"
+            role="heading"
+          >
+            Take Control of Your
+          </h1>
+          <h1
+            aria-label="title2"
+            class="text-center lg:text-left text-3xl lg:text-7xl font-bold text-[#fe0021] flex-wrap"
+            role="heading"
+          >
+            <div
+              class="Typewriter"
+              data-testid="typewriter-wrapper"
+            >
+              <span
+                class="Typewriter__wrapper"
+              />
+              <span
+                class="Typewriter__cursor"
+              >
+                |
+              </span>
+            </div>
+            <p
+              class="text-center lg:text-left text-3xl lg:text-7xl font-bold text-gray-900"
+            >
+              Business.
+            </p>
+          </h1>
+          <p
+            class="text-center lg:text-left mt-8 text-gray-800 text-md lg:text-xl"
+          >
+            With an extremely customizable and easy to you use interface, Onu gives you the tools you need to grow your business.
+          </p>
+          <div>
+            <div
+              class="flex justify-center text-center lg:justify-start mt-12 gap-6 pb-8"
+            >
+              <button
+                aria-label="Read-More"
+                class="px-6 py-3 rounded-xl shadow-md bg-white shadow-secondary border-2 border-secondary text-gray-900 font-medium text-lg lg:text-xl hover:bg-secondary hover:text-white hover:scale-110 duration-150"
+                role="button"
+              >
+                Read More
+              </button>
+              <button
+                aria-label="Get-Started"
+                class="px-6 py-3 flex rounded-xl whitespace-nowrap shadow-md shadow-gray-900 bg-secondary border-2 border-gray-900 text-white font-medium text-lg lg:text-xl hover:bg-gray-900 hover:text-white hover:scale-110 duration-150"
+                role="button"
+              >
+                Get Started
+                <svg
+                  aria-hidden="true"
+                  class="ml-2 h-7 w-7 text-white"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+          <div
+            aria-label="stats"
+            class="flex flex-row col-span-2 lg:col-span-2 justify-between border-2 rounded-xl border-gray-900 shadow-md shadow-gray-900 lg:mr-10 bg-cream"
+            role="banner"
+          >
+            <div
+              class="my-4 mx-2 lg:my-10 lg:mx-10 flex flex-col items-center lg:gap-2"
+            >
+              <h1
+                class="text-3xl xl:text-5xl font-bold font-poppins italic text-secondary"
+              >
+                201k+
+              </h1>
+              <h1
+                class="text-lg xl:text-2xl font-medium font-poppins text-gray-900"
+              >
+                Active Users
+              </h1>
+            </div>
+            <div
+              class="my-4 mx-2 lg:my-10 lg:mx-10 flex flex-col items-center lg:gap-2"
+            >
+              <h1
+                class="text-3xl xl:text-5xl font-bold font-poppins italic text-secondary"
+              >
+                1.4k+
+              </h1>
+              <h1
+                class="text-lg xl:text-2xl font-medium font-poppins text-gray-900"
+              >
+                Members
+              </h1>
+            </div>
+            <div
+              class="my-4 mx-2 lg:my-10 lg:mx-10 flex flex-col items-center lg:gap-2"
+            >
+              <h1
+                class="text-3xl xl:text-5xl font-bold font-poppins italic text-secondary"
+              >
+                31
+              </h1>
+              <h1
+                class="text-lg xl:text-2xl font-medium font-poppins text-gray-900"
+              >
+                Platforms
+              </h1>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="relative hidden lg:flex"
+      >
+        <div
+          class="absolute w-2/3 h-2/3 bottom-14 right-20 rounded-full border-2 border-gray-800 shadow-md shadow-gray-900 bg-tertiary"
+        />
+        <img
+          alt="HeroImage"
+          class="z-30"
+          data-nimg="1"
+          decoding="async"
+          height="40"
+          loading="lazy"
+          role="img"
+          src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+          srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+          style="color: transparent;"
+          width="40"
+        />
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
