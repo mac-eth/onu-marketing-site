@@ -1,4 +1,5 @@
 import { CheckCircleIcon } from "@heroicons/react/20/solid";
+import Link from "next/link";
 
 const includedFeatures: Array<string> = [
   "Private forum access",
@@ -12,23 +13,23 @@ const PricingSectionDescription: React.FC = () => {
     <div className="py-12 relative flex justify-center">
       <div className="relative flex justify-center max-w-7xl px-4 sm:px-6 lg:px-8 ">
         <div className="max-w-lg lg:flex lg:max-w-none lg:gap-8">
-          <div className="z-10 flex-1 bg-cream px-6 py-8 lg:p-12 border-2 border-black rounded-3xl shadow-md shadow-black duration-150 hover:scale-110 ">
-            <h3 className="text-2xl font-bold text-gray-900 sm:text-3xl sm:tracking-tight">
+          <div className="z-10 flex-1 bg-cream px-6 py-8 lg:p-12 border-2 border-black rounded-3xl shadow-md shadow-black">
+            <h3 className="text-2xl font-bold text-gray-900 sm:text-3xl sm:tracking-tight ">
               Get Started Absolutely Free
             </h3>
             <div className="mt-6">
               <div className="rounded-md shadow">
-                <a
+                <Link
                   href="#"
-                  className="flex items-center justify-center rounded-md border border-transparent bg-gray-800 px-5 py-3 text-base font-medium text-white hover:bg-gray-900"
+                  className="flex items-center justify-center rounded-md border border-transparent bg-gray-800 px-5 py-3 text-base font-medium text-white hover:bg-gray-900 hover:duration-150 hover:scale-110"
                 >
                   Get Access
-                </a>
+                </Link>
               </div>
             </div>
             <div className="mt-8">
               <div className="flex items-center">
-                <h4 className="flex-shrink-0 bg-white pr-4 text-base font-semibold text-indigo-600">
+                <h4 className="flex-shrink-0 pr-4 text-base font-semibold text-indigo-600">
                   Whats included
                 </h4>
                 <div className="flex-1 border-t-2 border-gray-200" />
@@ -51,7 +52,7 @@ const PricingSectionDescription: React.FC = () => {
               </ul>
             </div>
           </div>
-          <div className="bg-tertiary text-center border-2 border-black rounded-3xl my-12 py-12 px-4 shadow-md shadow-black lg:flex lg:flex-shrink-0 lg:flex-col lg:justify-center lg:p-12 duration-150 hover:scale-110">
+          <div className="bg-tertiary text-center border-2 border-black rounded-3xl my-12 py-12 px-4 shadow-md shadow-black lg:flex lg:flex-shrink-0 lg:flex-col lg:justify-center lg:p-12">
             <p className="text-lg font-medium leading-6 text-gray-900">
               Per Plugin /Month
             </p>
@@ -68,12 +69,12 @@ const PricingSectionDescription: React.FC = () => {
             </p>
             <div className="mt-6">
               <div className="rounded-md shadow">
-                <a
+                <Link
                   href="#"
-                  className="flex items-center justify-center rounded-md border border-transparent bg-gray-800 px-5 py-3 text-base font-medium text-white hover:bg-gray-900"
+                  className="flex items-center justify-center rounded-md border border-transparent bg-gray-800 px-5 py-3 text-base font-medium text-white hover:bg-gray-900 hover:duration-150 hover:scale-110"
                 >
                   Get Access
-                </a>
+                </Link>
               </div>
             </div>
             <div className="mt-4 text-sm">
